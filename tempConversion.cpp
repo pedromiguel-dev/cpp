@@ -1,5 +1,25 @@
 #include <iostream>
 
+int conversion(int temp, char unit)
+{
+    switch (std::toupper(unit))
+    {
+    case 'F':
+        temp = 1.8*temp+32;
+        break;
+    case 'C':
+        temp = (temp - 32)/1.8;
+        break;
+    
+    default:
+        std::cout << "invalid response, Only C or F";
+        break;
+    }
+
+    return temp;
+}
+
+
 int main(int argc, char const *argv[])
 {
     double temp;
@@ -37,7 +57,7 @@ int main(int argc, char const *argv[])
         break;
     }
 
-    std::cout << "\n****************************************";
+    std::cout << "\n****************************************\n";
 
     return 0;
 }
