@@ -1,0 +1,14 @@
+Função "somar" inteira recebe a inteiro e b inteiro. E faz:
+	variável inteiro "soma" recebe a + b.
+retornando "soma".
+
+
+Função "principal" inteira recebe nada. E faz:
+	variável inteiro "numero1" e "numero1" e "resultado".
+	numero1 recebe 2.
+	numero2 recebe 3.
+	resultado recebe somar levando numero1 e numero2.
+	execute mostrar levando "O resultado é: ", acrescente resultado.
+retornando 0.
+	
+	
